@@ -1,0 +1,107 @@
+*{
+    margin: 0vmin 0vmin 0vmin 0vmin;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+        margin: 0vmin 10vmin 0vmin 0vmin;
+    display: flex;
+    flex-direction: column; /* 🔸 जोड़े */
+    justify-content: center;
+    align-items: center;
+    background: #f3ffc0;
+}
+h1{
+    color: rgb(158, 154, 118);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 3vmin 3vmin 3vmin 3vmin;
+    padding: auto;
+    font-size: 80px;
+}
+
+#container{
+    height: 55vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: 0vmin 0vmin 0vmin 0vmin;
+}
+#game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+#Box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0);
+    font-size: 8vmin;
+    background-color: #c0c49b;
+}
+
+#res-bt{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #fff;
+    border-radius: 50px;
+    display: block;  
+    cursor: pointer; 
+     margin: 2rem auto;  
+
+
+      padding: 1rem 2rem;
+  font-size: 1.25rem;
+  background-color: #fff;
+  border-radius: 50px;
+  border: none;
+  margin: 2rem auto;        /* center horizontally */
+  display: block;           /* make it a block-level element */
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+
+.msg-container {
+  display: flex;
+  flex-direction: column; /* 🔸 Column में ऊपर-नीचे arrange करेगा */
+  justify-content: center;
+  align-items: center;
+  height: 110vmin;
+  margin-top: -5rem;
+  gap: 1rem; /* 🔸 थोड़ा space दे देगा दोनों के बीच */
+}
+
+#msg {
+  font-size: 5rem;
+  font-weight: bold;
+  color: green;
+}
+
+#ngb {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 4vmin;
+}
+
+.hide{
+    display: none;
+}
+.input{
+    flex-direction: column-reverse;
+    margin: 10px;
+}
